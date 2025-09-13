@@ -1,12 +1,18 @@
 body {
-  background-color: lightblue;
-  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-h1 {
-  color: darkblue;
+.header, .footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
 
-a {
-  color: red;
-  text-decoration: none;}
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
