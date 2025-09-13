@@ -40,7 +40,23 @@
       alert("Hello! You just clicked a button.");
     }
   </script>
+  <h1>Interactive Page</h1>
+
+  <button onclick="changeColor()">Change Background</button>
+
+  <form>
+    <label for="name">Your name:</label>
+    <input type="text" id="name">
+    <input type="submit" value="Send">
+  </form>
+
+  <script>
+    function changeColor() {
+      document.body.style.backgroundColor = "lightgreen";
+    }
+  </script>
 </body>
+
 
 
 
