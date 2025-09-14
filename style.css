@@ -16,3 +16,6 @@ body {
   padding: 20px;
 }
 
+dt {
+  font-weight: bold;
+}
